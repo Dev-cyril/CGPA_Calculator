@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#body{
+    height: 300px;
+    width:600px;
+    background-color: aqua;
+    text-align: center;
+    padding: 15px;
+    border-radius: 2px;
+    overflow: scroll;
+    
+}
+#inp{
+    width: 100px;
+}
+#inp2{
+    width: 100px;
+}
+.inp3{
+    width: 100px;
+}
+#butt1{
+    height: 30px;
+    width: 60px;
+    color: rgba(5, 31, 16, 0.719);
+    background-color: rgb(198, 221, 176);
+    float: left;
+    border-radius: 5px;
+}
+#butt2{
+    border-radius: 5px;
+    height: 30px;
+    width: 63px;
+    color: rgba(5, 31, 16, 0.719);
+    background-color: rgb(198, 221, 176);
+    float: right;
+}
+#butt1:hover, #butt2:hover{
+    background-color: rgba(5, 31, 16, 0.719);
+    color: rgb(198, 221, 176);
+}
+#cont{
+    height: fit-content;
+    width: fit-content;
+}
+.grade{
+    width: 100px;
+}
+.unit{
+    width: 100px;
+}
